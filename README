@@ -1,0 +1,61 @@
+Simple Python Calculator
+
+A simple command-line calculator built in Python that supports basic arithmetic operations like Addition, Subtraction, Multiplication, Division, Modulo, and Power. It also allows chaining operations using the previous result.
+
+Features
+
+- Supports 6 basic operations:
+  - Addition (+)
+  - Subtraction (-)
+  - Multiplication (*)
+  - Division (/)
+  - Modulo (%)
+  - Power (**)
+- Input validation for numbers and operators
+- Handles division and modulo by zero
+- Option to continue calculations using the previous result
+- Clear and interactive CLI interface
+
+Technologies Used
+
+- Python 3
+
+
+How to Run
+
+1. Make sure Python is installed.
+2. Save the code in a file named `calculator.py`.
+3. Run the program using:
+
+
+Flow of the Program
+User enters the first number.
+Available operations are displayed.
+User selects an operator and enters the next number.
+The result is shown.
+User is asked whether to continue with the result or exit.
+
+Output:
+
+Simple Python Calculator
+Enter first number: 10
+
+Available Operations:
+ +  : Addition
+ -  : Subtraction
+ *  : Multiplication
+ /  : Division
+ %  : Modulo
+ ** : Power
+
+Select an operation: +
+Enter next number: 5
+Result: 10.0 + 5.0 = 15.0
+Do you want to continue with this result? (y/n): y
+
+Select an operation: *
+Enter next number: 2
+Result: 15.0 * 2.0 = 30.0
+Do you want to continue with this result? (y/n): n
+
+Thank you for using the calculator. Bye!
